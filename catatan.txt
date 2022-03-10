@@ -1,2 +1,4 @@
 Bootstrap 5 : 
 - not support explorer
+
+- Thypography : https://getbootstrap.com/docs/5.1/content/typography/ , https://getbootstrap.com/docs/5.1/utilities/text/
