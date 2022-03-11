@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Gallery</title>
     <style>
-        .container {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(3, 200px);
+        .containers {
+            padding: 32px;
+        }
+
+        .containers h1 {
+            margin-bottom: 2.4em;
+        }
+
+        .containers .image {
+            display: inline-block;
+            float: left;
+            margin-right: 2em;
         }
     </style>
 </head>
 <body>
 
-    <div class="container mx-auto d-block">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
-        <img src="img/knife.jpg" alt="knife" class="rounded img-thumbnail img-fluid">
+    <div class="containers">
+        <h1 class="h2 text-center fw-normal">MyPortfolio</h1>
+        <div class="image">
+            <img src="img/woman.jpg" alt="profile" class="rounded-circle img-fluid img-thumbnail">
+        </div>
+        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci hic nobis aspernatur iure sed officiis saepe quia natus molestias, aut excepturi, illo rerum dolorum ea eveniet non mollitia! Molestias rem quo illum perferendis, quia saepe minima? Iusto tenetur quibusdam odio modi corporis accusamus ea! Voluptatum minima, reiciendis dolorem alias illum unde dicta cum!</p>
     </div>
     
-
 
     <script src="js/bootstrap.js"></script>
     <script src="js/popper.min.js"></script>
