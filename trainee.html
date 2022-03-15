@@ -7,15 +7,25 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Training</title>
     <style>
+        body {
+            height: 1200px;
+        }
+
         ul li a {
             font-size: 1.1rem;
         }
+
+        main {
+            margin-top: 89px;
+        }
+
     </style>
 </head>
 <body>
 
-    <nav class="bg-info p-3" style="width: 100%;">
-        <ul class="list-unstyled">
+
+    <nav class="bg-info p-4 position-fixed top-0" style="width: 100%;">
+        <ul class="list-unstyled my-auto ms-4">
             <li>
                 <a class="text-white text-decoration-none m-2" href="#">Home</a>
                 <a class="text-white text-decoration-none m-2" href="#">About</a>
@@ -24,7 +34,15 @@
             </li>
         </ul>
     </nav>
-    
+    <main class="clearfix p-4">
+        <div class="left float-start text-center p-2 w-50 mt-5">
+            <img src="img/woman.jpg" alt="profile" class="img-fluid rounded-circle" width="400" height="400">
+        </div>
+        <div class="right float-start p-2 w-25 m-5">
+            <h1 class="text-decoration-underline">My Profile</h1>
+            <p class="pt-3 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quasi rerum? Laboriosam accusantium explicabo quod, provident optio quas, exercitationem ipsam quisquam similique ratione molestias nisi ullam pariatur non natus voluptates!</p>
+        </div>
+    </main>
 
     <script src="js/bootstrap.js"></script>
     <script src="js/popper.min.js"></script>
